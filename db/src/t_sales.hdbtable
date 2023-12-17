@@ -1,0 +1,12 @@
+COLUMN TABLE "t_sales" 
+(
+"order_id" INTEGER, 
+"pos_id" INTEGER, 
+"month" INTEGER,
+"customer_id" INTEGER,
+"product_id" INTEGER,
+"state_id" INTEGER,
+"price" DOUBLE, 
+"quantity" DOUBLE,
+PRIMARY KEY ("order_id", "pos_id")
+)

@@ -8,5 +8,5 @@ COLUMN TABLE "travel.db::sales"
     "state_id" INTEGER,
     "price" DOUBLE, 
     "quantity" DOUBLE,
-    PRIMARY KEY ("order_id")
+    PRIMARY KEY ("order_id", "pos_id")
 )
